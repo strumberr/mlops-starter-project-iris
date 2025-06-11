@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stormbjorn/Desktop/vsCode/mlops-starter-project-iris/mlruns/950289778760854514/8ff0fbb28cd944d19047ba878a059db7/artifacts
+deleted_time: 1749631650966
+end_time: 1749631249461
+entry_point_name: ''
+experiment_id: '950289778760854514'
+lifecycle_stage: deleted
+run_id: 8ff0fbb28cd944d19047ba878a059db7
+run_name: Load Data
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749631249454
+status: 3
+tags: []
+user_id: stormbjorn

@@ -1,0 +1,10 @@
+artifact_location: file:///Users/stormbjorn/Desktop/vsCode/mlops-starter-project-iris/mlruns/849199103906981818/models/m-a9173773c889443b9ae953105fc299ae/artifacts
+creation_timestamp: 1749630918117
+experiment_id: '849199103906981818'
+last_updated_timestamp: 1749630919345
+model_id: m-a9173773c889443b9ae953105fc299ae
+model_type: null
+name: model
+source_run_id: 377280183b6543bbb852dc0979b9b39e
+status: 2
+status_message: null

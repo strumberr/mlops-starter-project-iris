@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stormbjorn/Desktop/vsCode/mlops-starter-project-iris/mlruns/680925155127351775/36da5502bff94189bf2f4d5e515dcdf6/artifacts
+deleted_time: 1749631646418
+end_time: 1749631032257
+entry_point_name: ''
+experiment_id: '680925155127351775'
+lifecycle_stage: deleted
+run_id: 36da5502bff94189bf2f4d5e515dcdf6
+run_name: Evaluation Step
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749631032210
+status: 3
+tags: []
+user_id: stormbjorn

@@ -1,0 +1,28 @@
+artifact_path: file:///Users/stormbjorn/Desktop/vsCode/mlops-starter-project-iris/mlruns/950289778760854514/models/m-da11cbfe429c40d6a4d7a7cdf86e4e90/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 3.1.0
+model_id: m-da11cbfe429c40d6a4d7a7cdf86e4e90
+model_size_bytes: 823
+model_uuid: m-da11cbfe429c40d6a4d7a7cdf86e4e90
+prompts: null
+run_id: 54a0285bc8244753bada88aa39812933
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1, 4]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-06-11 08:37:04.086720'

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/stormbjorn/Desktop/vsCode/mlops-starter-project-iris/mlruns/536673681501412375/2c258cc0b5ee4149b6817654768e9453/artifacts
+end_time: 1749632346668
+entry_point_name: ''
+experiment_id: '536673681501412375'
+lifecycle_stage: active
+run_id: 2c258cc0b5ee4149b6817654768e9453
+run_name: Training Model
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749632343922
+status: 3
+tags: []
+user_id: stormbjorn

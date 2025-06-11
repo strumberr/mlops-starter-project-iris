@@ -1,0 +1,7 @@
+artifact_location: file:///Users/stormbjorn/Desktop/vsCode/mlops-starter-project-iris/mlruns/950289778760854514
+creation_time: 1749631023979
+experiment_id: '950289778760854514'
+last_update_time: 1749631650966
+lifecycle_stage: deleted
+name: assignment-3-mlflow-train
+tags: {}

@@ -3,6 +3,7 @@ data/*
 !data/.gitignore
 models/*
 !models/.gitignore
+_template/*
 
 ## Mac OS
 .DS_Store

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/stormbjorn/Desktop/vsCode/mlops-starter-project-iris/mlruns/950289778760854514/5b3a85229f244e61b992ee15b96d9dfb/artifacts
+deleted_time: 1749631650966
+end_time: 1749631415956
+entry_point_name: ''
+experiment_id: '950289778760854514'
+lifecycle_stage: deleted
+run_id: 5b3a85229f244e61b992ee15b96d9dfb
+run_name: Training Step
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749631414768
+status: 3
+tags: []
+user_id: stormbjorn

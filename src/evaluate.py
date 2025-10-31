@@ -2,6 +2,7 @@ import json
 from typing import Any
 
 import joblib
+import mlflow
 import numpy as np
 import pandas as pd
 from sklearn.metrics import confusion_matrix, f1_score
@@ -38,8 +39,17 @@ def evaluate_model() -> dict[str, Any]:
 
 
 if __name__ == "__main__":
-    metrics = evaluate_model()
+    mlflow.set_experiment("assignment-3-mlflow-2")
 
-    # Save metrics as JSON
-    with open("data/eval.json", "w") as f:
-        json.dump(metrics, f, indent=2)
+    with open("run_id.txt") as f:
+        run_id = f.read().strip()
+
+    with mlflow.start_run(run_id=run_id):
+        with mlflow.start_run(run_name="Model Evaluation", nested=True):
+            metrics = evaluate_model()
+
+            with open("data/eval.json", "w") as f:
+                json.dump(metrics, f, indent=2)
+
+            mlflow.log_metric("f1_score", metrics["f1_score"])
+            mlflow.log_dict(metrics["confusion_matrix"], "confusion_matrix.json")
